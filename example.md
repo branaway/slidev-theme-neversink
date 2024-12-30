@@ -179,7 +179,7 @@ Hello, I'm a **yellowish sticky note** using `amber-light`.
 layout: side-title
 color: emerald-light
 align: rm-lm
-titlewidth: is-3
+titlewidth: is-5
 ---
 
 <StickyNote color="emerald-light" textAlign="left" width="180px"  v-drag="[719,291,180,180,16]">
@@ -1121,7 +1121,7 @@ dragPos:
   "'admon'": 55,300,287,106
 ---
 
-<Admonition title="V-draggable" color='teal-light' width="300px" v-drag="[93,303,300,145,-14]">
+<Admonition title="draggable" color='teal-light' width="300px" v-drag="[93,303,300,145,-14]">
 If you want to `v-drag` an admonition, you should set the width to a fixed value.
 </Admonition>
 

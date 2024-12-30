@@ -92,16 +92,15 @@ onMounted(() => {
 })
 </script>
 
-<!-- an example footer for pages -->
 <template>
-  <footer v-if="$frontmatter.slide_info !== false" class="absolute bottom-1 right-1 left-0 p-2 pr-3 full-width z-10">
+  <!-- <footer v-if="$frontmatter.slide_info !== false" class="absolute bottom-1 right-1 left-0 p-2 pr-3 full-width z-10">
     <div class="absolute bottom-0 right-0 p-2 pr-2">
       <span class="pl-3 pr-3 p-2 font-mono font-size-2" :class="fg + ' ' + bg">
         <mdi-orbit />&nbsp;<span class="fw-bold">{{ label }}</span> | {{ $slidev.nav.currentPage }} of
         {{ $slidev.nav.total }}
       </span>
     </div>
-  </footer>
+  </footer> -->
 </template>
 
 <style scoped></style>

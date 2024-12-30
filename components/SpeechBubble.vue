@@ -5,7 +5,8 @@ const props = defineProps({
   position: {
     type: String,
     default: 'b',
-    validator: (value) => ['t', 'l', 'r', 'b', 'bl', 'br', 'lt', 'tr'].includes(value),
+    // validator: (value) => ['t', 'l', 'r', 'b', 'bl', 'br', 'lt', 'tr'].includes(value),
+    validator: (value) => ['t', 'l', 'r', 'b', 'bl', 'br', 'tl', 'tr', 'lt', 'lb', 'rt', 'rb'].includes(value),
   },
   shape: {
     type: String,
