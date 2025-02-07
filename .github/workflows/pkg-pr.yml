@@ -1,0 +1,28 @@
+# Continuous Releases provided by https://pkg.pr.new
+name: CR (Continuous Releases)
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  cr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - run: npm i -g @antfu/ni
+      - run: nci
+
+      - name: Build
+        run: nr build
+
+      - run: npx pkg-pr-new publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
