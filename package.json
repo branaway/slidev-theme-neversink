@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-neversink",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "author": "gureckis",
   "type": "module",
   "keywords": [
@@ -56,7 +56,7 @@
     "bumpp": "^9.4.1"
   },
   "resolutions": {
-    "esbuild": "0.24.0" 
+    "esbuild": "0.24.0"
   },
   "packageManager": "pnpm@9.6.0"
 }
