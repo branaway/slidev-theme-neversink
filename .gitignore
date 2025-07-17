@@ -131,4 +131,4 @@ dist
 .DS_Store
 /docs/.vitepress/cache
 /docs/public/example
-/vitepress
+.vitepress

@@ -30,9 +30,9 @@ To customize the fonts used in the theme, you can set the following CSS variable
 
 ```css
 :root {
-  --neversink-title-font: 'Inter', sans-serif;
-  --neversink-main-font: 'Inter', sans-serif;
-  --neversink-mono-font: 'Fira Code', monospace;
-  --neversink-quote-font: 'Fira Code', monospace;
+  --neversink-title-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --neversink-main-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --neversink-mono-font: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  --neversink-quote-font: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
 }
 ```
